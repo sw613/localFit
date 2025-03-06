@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1600px;
+  font-family: 'Pretendard', sans-serif; /* Pretendard 폰트 적용 */
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+}
+
+.map-container {
+  flex: 1;
+  padding: 20px;
+  height: 700px;
+}
+
+.facility-container {
+  flex: 1;
+  padding: 20px;
+  height: 736px;
+}
+
+.facility-box {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.facility-list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-button {
+  min-width: 60px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.facility-grid {
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.facility-card {
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  cursor: default; /* 기존 카드 클릭 기능 제거 */
+}
+
+.marker-label {
+  padding: 8px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  text-align: center;
+}
+
+  
+  

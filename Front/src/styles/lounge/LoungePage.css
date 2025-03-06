@@ -1,0 +1,121 @@
+.lounge-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* 피드 생성 아이콘*/
+.lounge-page__create-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5rem; 
+  color: #000;
+  cursor: pointer;
+}
+
+.lounge-page__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lounge-page__tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.lounge-page__tab.active {
+  border-color: #000;
+  font-weight: bold;
+}
+
+.lounge-page__slider-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.lounge-page__slider-wrapper {
+  display: flex;
+  width: 200%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.lounge-page__grid-container {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #e0e0e0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.lounge-page__grid {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.lounge-page__card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.lounge-page__image-container {
+  position: relative;
+}
+.lounge-page__thumbnail {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.lounge-page__heart {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+.lounge-page__heart-icon {
+  font-size: 1.5rem;
+  color: #555;
+}
+.lounge-page__heart-icon--liked {
+  color: red;
+}
+.lounge-page__heart-count {
+  font-weight: bold;
+}
+
+.lounge-page__content {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;       
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

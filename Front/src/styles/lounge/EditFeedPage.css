@@ -1,0 +1,149 @@
+.edit-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .edit-feed h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .edit-feed__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .edit-feed__file-input-container {
+    text-align: center;
+  }
+  
+  .edit-feed__file-input-label {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-feed__file-input-label:hover {
+    background-color: #ddd;
+  }
+  
+  .edit-feed__camera-icon {
+    margin-right: 8px;
+  }
+
+  .edit-feed__file-input {
+    display: none;
+  }
+
+  .edit-feed__image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .edit-feed__image-item {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .edit-feed__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .edit-feed__image-remove {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .edit-feed__image-remove:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .edit-feed__description-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-feed__description-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .edit-feed__description-editor .ql-editor {
+    min-height: 150px;
+    font-size: 1.1rem;
+  }
+
+  .edit-feed__hashtag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-feed__hashtag-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .edit-feed__hashtag-input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .edit-feed__hashtag-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .edit-feed__hashtag-chip {
+    background-color: #eaeaea;
+    padding: 4px 8px;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .edit-feed__remove-hashtag {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #f00;
+  }
+
+  .edit-feed__submit-button {
+    padding: 10px 16px;
+    font-size: 1.2rem;
+    background-color: #178854;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  

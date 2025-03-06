@@ -1,0 +1,15 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 브라우저 전체 높이를 채우도록 */
+  }
+  
+  main {
+    flex: 1; /* 남은 공간을 모두 차지해서 푸터를 맨 아래로 밀어줌 */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }

@@ -1,0 +1,135 @@
+.create-feed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.create-feed h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-feed__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 파일 업로드 관련 스타일 */
+.create-feed__file-input-container {
+  text-align: center;
+}
+
+.create-feed__file-input-label {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.create-feed__file-input-label:hover {
+  background-color: #ddd;
+}
+
+.create-feed__camera-icon {
+  margin-right: 8px;
+  /* 필요 시 font-size 조절 */
+  /* font-size: 40px; */
+}
+
+.create-feed__file-input {
+  display: none;
+}
+
+/* 이미지 리스트 스타일 */
+.create-feed__image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.create-feed__image-item {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 내용 작성 영역 */
+.create-feed__description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-feed__description-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* ReactQuill 에디터 스타일 (Snow 테마 사용 시) */
+.create-feed__description-editor .ql-editor {
+  min-height: 150px;
+  font-size: 1.1rem;
+}
+
+/* 해시태그 영역 */
+.create-feed__hashtag-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-feed__hashtag-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.create-feed__hashtag-input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.create-feed__hashtag-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.create-feed__hashtag-chip {
+  background-color: #eaeaea;
+  padding: 4px 8px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.create-feed__remove-hashtag {
+  margin-left: 5px;
+  cursor: pointer;
+  color: #f00;
+}
+
+/* 작성 버튼 스타일 */
+.create-feed__submit-button {
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  background-color: #178854;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.create-feed__submit-button:hover {
+  background-color: #147546;
+}

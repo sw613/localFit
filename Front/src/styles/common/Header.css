@@ -1,0 +1,75 @@
+.site-header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px; /* 로고와 메뉴 사이 간격 */
+  }
+  
+  .header-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    margin-right: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Pretendard;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right-section li {
+    margin-left: 20px;  /* 오른쪽 섹션은 왼쪽 여백으로 간격 조절 */
+  }
+  
+  .right-section a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Pretendard;
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Pretendard;
+    color: #333;
+  }
+  

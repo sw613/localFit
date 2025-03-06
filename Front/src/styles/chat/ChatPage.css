@@ -1,0 +1,85 @@
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  overflow: auto;
+  padding: 10px;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+  padding: 10px;
+}
+
+.chatInput {
+  width: 100%;
+}
+
+.chatButton {
+  margin-left: 10px;
+}
+
+.myChatContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.otherChatContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.myChat {
+  padding: 15px 20px;
+  background-color: #fbb4eb;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: right;
+  word-break: break-all; /* 단어를 강제로 줄바꿈 */
+  overflow-wrap: break-word; /* 긴 연속 문자열을 줄바꿈 */
+  max-width: 80%; /* 박스를 넘지 않도록 제한 */
+}
+
+.otherChat {
+  text-align: left;
+  padding: 15px 20px;
+  background-color: #9393f0;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  word-break: break-all; /* 단어를 강제로 줄바꿈 */
+  overflow-wrap: break-word; /* 긴 연속 문자열을 줄바꿈 */
+  max-width: 80%; /* 박스를 넘지 않도록 제한 */
+}
+
+.myChatBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 100%;
+}
+
+.otherChatBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.systemMessage {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chatInput {
+  width: auto;
+  flex: 1.5;
+}
+
+
