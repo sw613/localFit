@@ -75,3 +75,7 @@
 
 ![ERD](https://github.com/user-attachments/assets/ef0e7fd8-e162-4d64-9f74-e09ab8680267)
 
+
+
+
+[localFit.pdf](https://github.com/user-attachments/files/19568263/localFit.pdf)
